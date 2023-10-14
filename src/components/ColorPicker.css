@@ -1,0 +1,62 @@
+/* src/components/ColorPicker.css */
+
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-list {
+  display: flex;
+  justify-content: center;
+  margin-top: -350px;
+  
+}
+
+.color-option {
+  width: 50px;
+  height: 50px;
+  margin:5px;
+  margin-top: 150px;
+  cursor: pointer;
+  box-shadow: 5px 10px  10px #7c7c7c;
+}
+
+.selected-color {
+  width: 800px;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  background-color: #FF5733; /* Default background color for the selected color box */
+  border-radius: 15px;
+}
+
+.color-button {
+  text-align: center;
+  margin: 10px;
+  margin-top: -1px;
+}
+
+.color-button button {
+  background-color: #4CAF50; /* Green color for the "Pick a Color" button */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.color-button button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+  
+
+  
+  
